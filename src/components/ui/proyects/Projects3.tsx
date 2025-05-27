@@ -17,8 +17,8 @@ type Project = {
 const projectsData: Project[] = [
   {
     id: '1',
-    title: 'Jefe del Equipo de Economía Circular y Finanzas Verdes',
-    description: 'Implementación de sistemas de agricultura sostenible en zonas urbanas marginales, capacitando a familias en cultivos orgánicos.',
+    title: 'Gestor de Proyectos de Impacto Sostenible (Perú)',
+    description: 'Entidad: CIBS Fundo San Rocco (Centro de Innovación y Biotecnología AgroTecnológica).',
     imageUrl: '/images/projects/urban-garden.jpg',
     category: 'Agricultura Sostenible',
     tags: ['Comunidad', 'Autosuficiencia', 'Orgánico'],
@@ -27,8 +27,8 @@ const projectsData: Project[] = [
   },
   {
     id: '2',
-    title: 'Gestor de Proyectos de Impacto Sostenible y Consultor en Economía Circular y Biotecnología',
-    description: 'Instalación de paneles solares en escuelas de zonas remotas, mejorando el acceso a energía limpia y educación digital.',
+    title: 'Consultor de Economía Circular y Cambio Climático (Perú)',
+    description: 'Entidad: Bioincuba-UPCH (Universidad Peruana Cayetano Heredia) - Proyectos Mucílago y Biochart.',
     imageUrl: '/images/projects/solar-school.jpg',
     category: 'Energías Renovables',
     tags: ['Educación', 'Tecnología', 'Rural'],
@@ -37,8 +37,8 @@ const projectsData: Project[] = [
   },
   {
     id: '3',
-    title: 'Consultor de Economía Circular y Cambio Climático (Uso de Biomateriales)',
-    description: 'Sistema de gestión de residuos con incentivos económicos para comunidades urbanas, promoviendo la economía circular.',
+    title: 'Director de Inversiones de Impacto (Perú y Latinoamérica)',
+    description: 'Entidad: JEConsulting (en alianza con Asesorandes SAC).',
     imageUrl: '/images/projects/recycling.jpg',
     category: 'Economía Circular',
     tags: ['Tecnología', 'Urbanismo', 'Innovación'],
@@ -47,8 +47,8 @@ const projectsData: Project[] = [
   },
   {
     id: '4',
-    title: 'Consultor en Economía Circular y Sostenibilidad',
-    description: 'Recuperación de técnicas ancestrales de cultivo en armonía con los ecosistemas de montaña.',
+    title: 'Consultor Líder en Incubación y Emprendimientos Sostenibles (Perú y Colombia)',
+    description: 'Entidades: Alpacol, Koreshoes, Muru, Cruz de Mayo, Kaypi, Reasch, Fundación Aquí Sí Hay Futuro, Investigación para la Conservación, Amazonías Símbolos y Sentimientos, ACM Ventures.',
     imageUrl: '/images/projects/agroforestry.jpg',
     category: 'Agricultura Regenerativa',
     tags: ['Andino', 'Tradicional', 'Biodiversidad'],
@@ -83,7 +83,7 @@ export const ProjectsGallery3 = () => {
       <div className="max-w-7xl mx-auto">
         {/* Encabezado */}
         <div className="text-center mb-12">
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-900 max-w-3xl mx-auto">
             10 años en la implementación de proyectos en América Latina
           </p>
         </div>
@@ -138,7 +138,8 @@ export const ProjectsGallery3 = () => {
                 </div>
 
                 <Link
-                  href={`/proyectos/${project.slug}`}
+                  href={`https://www.linkedin.com/in/ingeduardonoriegaperu/`}
+                  // href={`/proyectos/${project.slug}`}
                   className="inline-flex items-center text-[#759C30] font-medium hover:text-[#5a7a24] transition-colors"
                 >
                   Conoce más

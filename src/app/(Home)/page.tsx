@@ -13,10 +13,12 @@ import {Socios} from '@/components/ui/socios/socios_page'
 import {ProjectsGallery1} from '@/components/ui/proyects/Projects1';
 import {ProjectsGallery2} from '@/components/ui/proyects/Projects2';
 import {ProjectsGallery3} from '@/components/ui/proyects/Projects3';
+import { ProfileSection } from '@/components/ui/profilesec/Profile';
 export default function Home() {
     return (
         <div>
             <Hero />
+            <ProfileSection/>
             <IndicatorPage/>
             <AboutUs />
             <DirectorComponent/>

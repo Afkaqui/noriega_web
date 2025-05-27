@@ -11,3 +11,4 @@ export * from './ui/aliados/Aliados';
 export * from './ui/socios/socios_page';
 export * from './ui/indicator/indicator_page';
 export * from './ui/proyects/Projects1';
+export * from './ui/profilesec/Profile';

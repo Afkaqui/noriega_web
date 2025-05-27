@@ -24,7 +24,7 @@ export const Footer = () => {
                     /> */}
                     <div className="text-center sm:text-left">
                         <div className="text-[18px] sm:text-[20px] font-semibold  mb-2">
-                            COMENCEMOS A CONSTRUIR UN FUTURO SOSTENIBLE
+                            COMENCEMOS A CONSTRUIR UN FUTURO SOSTENIBLEgit init
                         </div>
                         <p className="text-sm sm:text-base mb-2">Juntos, podemos generar un impacto positivo y duradero en América Latina.</p>
                         {/* <p className="text-xs sm:text-sm">Correo: gremiosostenible.genes@gmail.com</p>

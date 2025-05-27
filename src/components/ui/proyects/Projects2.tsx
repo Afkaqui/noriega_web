@@ -17,8 +17,8 @@ type Project = {
 const projectsData: Project[] = [
   {
     id: '1',
-    title: 'Jefe del Equipo de Economía Circular y Finanzas Verdes',
-    description: 'Implementación de sistemas de agricultura sostenible en zonas urbanas marginales, capacitando a familias en cultivos orgánicos.',
+    title: 'Gestor de Proyectos de Impacto Sostenible',
+    description: 'Entidad: CIBS Fundo San Rocco (Centro de Innovación y Biotecnología AgroTecnológica)',
     imageUrl: '/images/projects/urban-garden.jpg',
     category: 'Agricultura Sostenible',
     tags: ['Comunidad', 'Autosuficiencia', 'Orgánico'],
@@ -27,8 +27,8 @@ const projectsData: Project[] = [
   },
   {
     id: '2',
-    title: 'Gestor de Proyectos de Impacto Sostenible y Consultor en Economía Circular y Biotecnología',
-    description: 'Instalación de paneles solares en escuelas de zonas remotas, mejorando el acceso a energía limpia y educación digital.',
+    title: 'Consultor de Cambio Climático y Economía Circular (Uso de Biomateriales)',
+    description: 'Entidad: Bioincuba-UPCH (Universidad Peruana Cayetano Heredia) - Proyecto Mucílago.',
     imageUrl: '/images/projects/solar-school.jpg',
     category: 'Energías Renovables',
     tags: ['Educación', 'Tecnología', 'Rural'],
@@ -37,8 +37,8 @@ const projectsData: Project[] = [
   },
   {
     id: '3',
-    title: 'Consultor de Economía Circular y Cambio Climático (Uso de Biomateriales)',
-    description: 'Sistema de gestión de residuos con incentivos económicos para comunidades urbanas, promoviendo la economía circular.',
+    title: 'Líder de Propuesta - Finalista Land Accelerator Perú',
+    description: 'Entidad: Land Accelerator Perú (Iniciativa 20x20 del World Resources Institute - WRI) / JEConsulting SAC.',
     imageUrl: '/images/projects/recycling.jpg',
     category: 'Economía Circular',
     tags: ['Tecnología', 'Urbanismo', 'Innovación'],
@@ -47,34 +47,34 @@ const projectsData: Project[] = [
   },
   {
     id: '4',
-    title: 'Consultor en Economía Circular y Sostenibilidad',
-    description: 'Recuperación de técnicas ancestrales de cultivo en armonía con los ecosistemas de montaña.',
+    title: 'Gestor de Proyectos (PROMPERÚ)',
+    description: 'Entidad: Dirección de Promoción de Inversiones Empresariales de PROMPERÚ.',
     imageUrl: '/images/projects/agroforestry.jpg',
     category: 'Agricultura Regenerativa',
     tags: ['Andino', 'Tradicional', 'Biodiversidad'],
     slug: 'agroforesteria-andina',
     impact: '20 hectáreas recuperadas'
   },
-//   {
-//     id: '5',
-//     title: 'Agua Potable para Comunidades',
-//     description: 'Sistemas de purificación de agua mediante energía solar para comunidades sin acceso a agua limpia.',
-//     imageUrl: '/images/projects/clean-water.jpg',
-//     category: 'Salud Comunitaria',
-//     tags: ['Agua', 'Salud', 'Tecnología'],
-//     slug: 'agua-potable',
-//     impact: '500+ personas beneficiadas'
-//   }
-//   {
-//     id: '6',
-//     title: 'Talleres de Sostenibilidad',
-//     description: 'Programa educativo para emprendedores sobre prácticas comerciales sostenibles y responsabilidad ambiental.',
-//     imageUrl: '/images/projects/workshop.jpg',
-//     category: 'Educación',
-//     tags: ['Capacitación', 'Emprendimiento', 'Sostenibilidad'],
-//     slug: 'talleres-sostenibilidad',
-//     impact: '300+ emprendedores capacitados'
-//   }
+  {
+    id: '5',
+    title: 'Consultor en Sostenibilidad y Emprendimientos de Impacto',
+    description: 'Entidad: Fundación Aquí Sí Hay Futuro (Colombia)',
+    imageUrl: '/images/projects/clean-water.jpg',
+    category: 'Salud Comunitaria',
+    tags: ['Agua', 'Salud', 'Tecnología'],
+    slug: 'agua-potable',
+    impact: '500+ personas beneficiadas'
+  },
+  {
+    id: '6',
+    title: 'Consultor en Sostenibilidad y Triple Impacto',
+    description: 'Entidad: Amazonías Símbolos y Sentimientos (Perú)',
+    imageUrl: '/images/projects/workshop.jpg',
+    category: 'Educación',
+    tags: ['Capacitación', 'Emprendimiento', 'Sostenibilidad'],
+    slug: 'talleres-sostenibilidad',
+    impact: '300+ emprendedores capacitados'
+  }
 ];
 
 export const ProjectsGallery2 = () => {
@@ -83,7 +83,7 @@ export const ProjectsGallery2 = () => {
       <div className="max-w-7xl mx-auto">
         {/* Encabezado */}
         <div className="text-center mb-12">
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-900 max-w-3xl mx-auto">
             8 años en proyectos vinculados a cambio climático y/o políticas internacionales sobre reducción de gases de efecto invernadero
           </p>
         </div>
@@ -138,7 +138,8 @@ export const ProjectsGallery2 = () => {
                 </div>
 
                 <Link
-                  href={`/proyectos/${project.slug}`}
+                  href={`https://www.linkedin.com/in/ingeduardonoriegaperu/`}
+                  // href={`/proyectos/${project.slug}`}
                   className="inline-flex items-center text-[#759C30] font-medium hover:text-[#5a7a24] transition-colors"
                 >
                   Conoce más

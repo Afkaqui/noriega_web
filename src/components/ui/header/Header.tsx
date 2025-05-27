@@ -18,9 +18,11 @@ export const Header = () => {
 
                 {/* Menú */}
                 <ul className="flex gap-5 items-center space-x-4 sm:space-x-6">
-                    <li><a className="font-semibold text-[#475467]" href="#nosotros">Nosotros</a></li>
-                    <li><a className="font-semibold text-[#475467]" href="#lineas_accion">Líneas de acción</a></li>
-                    <li><a className="font-semibold text-[#475467] pr-4 sm:pr-6" href="#contacto">Contacto</a></li>
+                    <li><a className="font-semibold text-[#475467]" href="#nosotros">Perfil</a></li>
+                    <li><a className="font-semibold text-[#475467]" href="#lineas_accion">Especialización</a></li>
+                    <li><a className="font-semibold text-[#475467]" href="#proyectos">Proyectos</a></li>
+                    <li><a className="font-semibold text-[#475467]" href="#lineas_accion">Premios</a></li>
+                    <li><a className="font-semibold text-[#475467] pr-4 sm:pr-6" href="#contacto">Blog</a></li>
                 </ul>
             </nav>
         </header>

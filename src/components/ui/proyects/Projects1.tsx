@@ -19,7 +19,7 @@ const projectsData: Project[] = [
   {
     id: '1',
     title: 'Jefe del Equipo de Economía Circular y Finanzas Verdes',
-    description: 'Implementación de sistemas de agricultura sostenible en zonas urbanas marginales, capacitando a familias en cultivos orgánicos.',
+    description: 'Mapping of funders and investors for the circular economy in the Dominican Republic. Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH',
     imageUrl: id1,
     category: 'Agricultura Sostenible',
     tags: ['Comunidad', 'Autosuficiencia', 'Orgánico'],
@@ -29,7 +29,7 @@ const projectsData: Project[] = [
   {
     id: '2',
     title: 'Gestor de Proyectos de Impacto Sostenible y Consultor en Economía Circular y Biotecnología',
-    description: 'Instalación de paneles solares en escuelas de zonas remotas, mejorando el acceso a energía limpia y educación digital.',
+    description: 'Entidad: CIBS Fundo San Rocco (Centro de Innovación y Biotecnología AgroTecnológica)',
     imageUrl: id1,
     category: 'Energías Renovables',
     tags: ['Educación', 'Tecnología', 'Rural'],
@@ -39,7 +39,7 @@ const projectsData: Project[] = [
   {
     id: '3',
     title: 'Consultor de Economía Circular y Cambio Climático (Uso de Biomateriales)',
-    description: 'Sistema de gestión de residuos con incentivos económicos para comunidades urbanas, promoviendo la economía circular.',
+    description: 'Entidad: Bioincuba-UPCH (Universidad Peruana Cayetano Heredia) - Proyectos Mucílago y Biochart',
     imageUrl: id1,
     category: 'Economía Circular',
     tags: ['Tecnología', 'Urbanismo', 'Innovación'],
@@ -48,7 +48,7 @@ const projectsData: Project[] = [
   },
   {
     id: '4',
-    title: 'Consultor en Economía Circular y Sostenibilidad',
+    title: 'Entidades: Alpacol, Koreshoes, Cruz de Mayo, Kaypi, Reasch, Muru (Start-ups de impacto)',
     description: 'Recuperación de técnicas ancestrales de cultivo en armonía con los ecosistemas de montaña.',
     imageUrl: id1,
     category: 'Agricultura Regenerativa',
@@ -80,14 +80,14 @@ const projectsData: Project[] = [
 
 export const ProjectsGallery1 = () => {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="proyectos" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Encabezado */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             EXPERIENCIA Y PROYECTOS
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-900 max-w-3xl mx-auto">
             8 años en el sector PIUP y/o gestión de residuos sólidos
           </p>
         </div>
@@ -142,7 +142,8 @@ export const ProjectsGallery1 = () => {
                 </div>
 
                 <Link
-                  href={`/proyectos/${project.slug}`}
+                  href={`https://www.linkedin.com/in/ingeduardonoriegaperu/`}
+                  // href={`/proyectos/${project.slug}`}
                   className="inline-flex items-center text-[#759C30] font-medium hover:text-[#5a7a24] transition-colors"
                 >
                   Conoce más
