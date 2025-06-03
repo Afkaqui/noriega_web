@@ -19,18 +19,22 @@ export default function Home() {
         <div>
             <Hero />
             <ProfileSection/>
-            <IndicatorPage/>
             <AboutUs />
-            <DirectorComponent/>
-            <JoinUs />
             <Aliados />
             <AreaEspecializacion/>
-            <Trayectoria/>
+            
             <Socios />
             <ProjectsGallery1/>
             <ProjectsGallery2/>
             <ProjectsGallery3/>
             <ContactUs/>
+            <IndicatorPage/>
+            
+            <DirectorComponent/>
+            
+            <Trayectoria/>
+            <JoinUs />
+            <h1 className=''>FORO</h1>
         </div>
     );
 }

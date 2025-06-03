@@ -8,12 +8,12 @@ export const Header = () => {
             <nav className="container mx-auto flex flex-wrap justify-between items-center gap-5">
                 {/* Logo */}
                 <div className="flex-shrink-0">
-                    <Image
+                    {/* <Image
                         src={genesLogo}
                         alt="GenesPeru"
                         width={75}
                         height={75} 
-                    />
+                    /> */}
                 </div>
 
                 {/* Menú */}

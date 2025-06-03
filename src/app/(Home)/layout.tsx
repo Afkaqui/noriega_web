@@ -7,7 +7,7 @@ import { Metadata }  from 'next';
 //Partes comentadas para implementación futura
 
 export const metadata: Metadata = {
-    title: 'GENES Perú | Gremio Nacional de Emprendedores Sostenibles',
+    title: 'Eduardo José Noriega Campos',
     description: 'Impulsamos proyectos de sostenibilidad, economía circular y emprendimientos sostenibles en Perú. Únete a nuestra comunidad para co-crear soluciones innovadoras.',
     keywords: [
       'Sostenibilidad',
