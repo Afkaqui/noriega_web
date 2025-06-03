@@ -1,10 +1,7 @@
 import Image from 'next/image';
-import SER_SOSTE from '@/images/icons/img001_servicios.svg';
-import PRODUCT_SOSTE from '@/images/icons/img002_produtoc_sostenibles.svg';
-import CIUD_SOSTE from '@/images/icons/img003_ciudades_soste.svg';
-import RECURSOS from '@/images/icons/img004_recursos.svg';
-
-
+import MODELO from '@/images/especializacion/001.jpeg';
+import MENTORIA from '@/images/especializacion/002.jpeg';
+import ALIANZAS from '@/images/especializacion/003.jpeg';
 export const AreaEspecializacion = () => {
     return (
         <section id='lineas_accion' className="bg-gray-100 px-6 sm:px-12 md:px-20 py-16 sm:py-20 md:py-24">
@@ -25,13 +22,11 @@ export const AreaEspecializacion = () => {
                     <div className="flex flex-wrap justify-center sm:justify-start gap-8 sm:gap-12 md:gap-16">
                         
                         {/* Tarjeta 1 */}
-                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
+                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[400px]">
                             <Image
-                                src={SER_SOSTE}
+                                src={MODELO}
                                 alt="Servicios sostenibles"
-                                width={100}
-                                height={100}
-                                className="mb-4"
+                                className="mb-4 bg-center bg-cover w-full sm:h-[200px] rounded-lg"
                             />
                             <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left">
                                 Modelos de Negocio de Impacto
@@ -40,13 +35,11 @@ export const AreaEspecializacion = () => {
                         </div>
 
                         {/* Tarjeta 2 */}
-                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
+                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[400px]">
                             <Image
-                                src={PRODUCT_SOSTE}
-                                alt="Producción sostenible"
-                                width={100}
-                                height={100}
-                                className="mb-4"
+                                src={MENTORIA}
+                                alt="Servicios sostenibles"
+                                className="mb-4 bg-center bg-cover w-full sm:h-[300px] rounded-lg"
                             />
                             <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left max-w-[300px]">
                                 Mentoría y Capacitación
@@ -55,13 +48,11 @@ export const AreaEspecializacion = () => {
                         </div>
 
                         {/* Tarjeta 3 */}
-                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
+                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[400px]">
                             <Image
-                                src={CIUD_SOSTE}
-                                alt="Ciudades sostenibles"
-                                width={100}
-                                height={100}
-                                className="mb-4"
+                                 src={ALIANZAS}
+                                alt="Servicios sostenibles"
+                                className="mb-4 bg-center bg-cover w-full sm:h-[300px] rounded-lg"
                             />
                             <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left">
                                 Alianzas Estratégicas y Networking

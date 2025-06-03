@@ -20,19 +20,16 @@ export default function Home() {
             <Hero />
             <ProfileSection/>
             <AboutUs />
+            <IndicatorPage/>
             <Aliados />
             <AreaEspecializacion/>
-            
-            <Socios />
+            {/* <Socios /> */}
             <ProjectsGallery1/>
             <ProjectsGallery2/>
             <ProjectsGallery3/>
-            <ContactUs/>
-            <IndicatorPage/>
-            
-            <DirectorComponent/>
-            
-            <Trayectoria/>
+            {/* <ContactUs/> */}
+            {/* <DirectorComponent/> */}
+            {/* <Trayectoria/> */}
             <JoinUs />
             <h1 className=''>FORO</h1>
         </div>

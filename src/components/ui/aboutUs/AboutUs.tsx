@@ -10,25 +10,33 @@ export const AboutUs = () => {
                     {/* Texto de la izquierda */}
                     <div className="text-center  mb-6">
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 mx-auto md:mx-0">
-                            NOSOTROS
+                            Conoce más de mi
                         </h2>
                         <p className= "mb-6 text-lg leading-7  mx-auto md:mx-0 text-black">{/* revisar bold */}
-                        Somos GENES PERÚ, un gremio sin fines de lucro que impulsa emprendimientos sostenibles en todo el Perú, promoviendo el crecimiento económico, social y ambiental para un futuro próspero.
+                            Como experto en Gestion de la Sostenibilidad, soy un líder visionario en latino américa 
+                            con más de 24 años de experiencia en el sector. Mi pasión por la sostenibilidad me ha llevado 
+                            a trabajar en una amplia gama de proyectos, desde la formulación de políticas públicas hasta la 
+                            inversión en empresas sostenibles.
                         </p>
-                        <div className='flex gap-2 text-center mb-4 mx-auto md:mx-0'>
-                            <div className='flex-1 text-gray-700 mb-6 text-lg leading-7  mx-auto md:mx-0'>
-                                <div>-Fortalecimiento de capacidades y áreas sectoriales clave</div>
-                                <div>-Empoderamiento de comunidades para crear negocios sostenibles</div>
-                            </div>
-                            <div className='flex-1 text-gray-700 mb-6 text-lg leading-7  mx-auto md:mx-0'>
-                                <div>-Fomento de la innovación disruptiva y la economía circular</div>
-                                <div>-Co-creación de soluciones inclusivas con todos los actores</div>
-                            </div>
-                        </div>
-                        <div 
-                        className='text-gray-700 mb-6 text-lg leading-7 mx-auto md:mx-0'>
-                            -Utilización de tecnologías modernas para el impacto.
-                        </div>
+                        {/* <p className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-700 mb-4 mx-auto md:mx-0">
+                            Como experto en Gestion de la Sostenibilidad, soy un líder visionario en latino américa 
+                            con más de 24 años de experiencia en el sector. Mi pasión por la sostenibilidad me ha llevado 
+                            a trabajar en una amplia gama de proyectos, desde la formulación de políticas públicas hasta la 
+                            inversión en empresas sostenibles.
+                        </p> */}
+                        <h3 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-700 mb-4 mx-auto md:mx-0">
+                            Experto en economía regenerativa, finanzas sostenibles y economía circular
+                        </h3>
+                        <p className= "mb-6 text-lg leading-7  mx-auto md:mx-0 text-black">{/* revisar bold */}
+                            Soy ingeniero industrial y cuento con un máster en finanzas, un MBA y una especialidad 
+                            en coaching. Esta combinación de formación académica y experiencia práctica me permite 
+                            ofrecer una perspectiva única y holística sobre la sostenibilidad, además de especializaciones 
+                            certificadas por los principales impulsores del ecosistema sostenible.
+                        </p>
+                        <p className= "mb-6 text-lg leading-7  mx-auto md:mx-0 text-black">{/* revisar bold */}
+                            Comprometido con el cumplimiento de los ODS de la ONU a través de la Agenda 2030 Creo 
+                            que la sostenibilidad es la clave para crear un futuro más justo, equitativo y sostenible para todos.
+                        </p>
                     </div>
                 </div>
             </div>

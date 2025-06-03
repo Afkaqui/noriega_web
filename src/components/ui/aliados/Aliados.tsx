@@ -58,7 +58,7 @@ export const Aliados = () => {
     ];
     return (
         <section className="text-center py-10 px-4 sm:px-12 lg:px-48">
-            <h2 className="text-[48px] leading-[60px] tracking-[-2%] font-bold mb-8">NUESTROS ALIADOS</h2>
+            <h2 className="text-[48px] leading-[60px] tracking-[-2%] font-bold mb-8">CLIENTES</h2>
             <div className="overflow-hidden">
         <div className="flex overflow-x-auto gap-6 pb-4 hide-scrollbar">
           {aliados.map((aliado, index) => (

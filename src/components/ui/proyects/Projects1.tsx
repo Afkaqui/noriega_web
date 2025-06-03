@@ -2,6 +2,16 @@ import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
 import id1 from '@/images/autoridades/img001_Eduardo Noriega.jpeg';
+import JEFE_ECONOMIA_CIRCULAR from '@/images/proyectos/001.jpeg';
+import SANROCCO_01 from '@/images/proyectos/002_1.jpeg';
+import SANROCCO_02 from '@/images/proyectos/002_2.jpeg';
+import BIO_INCUVA_01 from '@/images/proyectos/003_1.jpeg';
+import BIO_INCUVA_02 from '@/images/proyectos/003_2.jpeg';
+import ALPACOL_01 from '@/images/proyectos/004_1.jpeg';
+import ALPACOL_02 from '@/images/proyectos/004_2.jpeg';
+import ALPACOL_03 from '@/images/proyectos/004_3.jpeg';
+import ALPACOL_04 from '@/images/proyectos/004_4.jpeg'; 
+import ALPACOL_05 from '@/images/proyectos/004_5.jpeg';
 // Tipos para los proyectos
 type Project = {
   id: string;
@@ -20,41 +30,40 @@ const projectsData: Project[] = [
     id: '1',
     title: 'Jefe del Equipo de Economía Circular y Finanzas Verdes',
     description: 'Mapping of funders and investors for the circular economy in the Dominican Republic. Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH',
-    imageUrl: id1,
+    imageUrl: JEFE_ECONOMIA_CIRCULAR,
     category: 'Agricultura Sostenible',
-    tags: ['Comunidad', 'Autosuficiencia', 'Orgánico'],
+    tags: ['Finanzas', 'Circular'],
     slug: 'huertos-urbanos',
-    impact: '150 familias beneficiadas'
+
   },
   {
     id: '2',
     title: 'Gestor de Proyectos de Impacto Sostenible y Consultor en Economía Circular y Biotecnología',
     description: 'Entidad: CIBS Fundo San Rocco (Centro de Innovación y Biotecnología AgroTecnológica)',
-    imageUrl: id1,
+    imageUrl: SANROCCO_02,
     category: 'Energías Renovables',
-    tags: ['Educación', 'Tecnología', 'Rural'],
+    tags: ['Sostenibilidad', 'Circular', 'Biotecnología'],
     slug: 'energia-escolar',
-    impact: '12 escuelas equipadas'
   },
   {
     id: '3',
     title: 'Consultor de Economía Circular y Cambio Climático (Uso de Biomateriales)',
     description: 'Entidad: Bioincuba-UPCH (Universidad Peruana Cayetano Heredia) - Proyectos Mucílago y Biochart',
-    imageUrl: id1,
+    imageUrl: BIO_INCUVA_02,
     category: 'Economía Circular',
-    tags: ['Tecnología', 'Urbanismo', 'Innovación'],
+    tags: ['Economía', 'Circular', 'Biotecnología'],
     slug: 'reciclaje-inteligente',
-    impact: '5 toneladas recicladas/mes'
+    
   },
   {
     id: '4',
-    title: 'Entidades: Alpacol, Koreshoes, Cruz de Mayo, Kaypi, Reasch, Muru (Start-ups de impacto)',
-    description: 'Recuperación de técnicas ancestrales de cultivo en armonía con los ecosistemas de montaña.',
-    imageUrl: id1,
+    title: 'Recuperación de técnicas ancestrales de cultivo en armonía con los ecosistemas de montaña.',
+    description: 'Entidades: Alpacol, Koreshoes, Cruz de Mayo, Kaypi, Reasch, Muru (Start-ups de impacto)',
+    imageUrl: ALPACOL_03,
     category: 'Agricultura Regenerativa',
     tags: ['Andino', 'Tradicional', 'Biodiversidad'],
     slug: 'agroforesteria-andina',
-    impact: '20 hectáreas recuperadas'
+    // impact: '20 hectáreas recuperadas'
   },
 //   {
 //     id: '5',
