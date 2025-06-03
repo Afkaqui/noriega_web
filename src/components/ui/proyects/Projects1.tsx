@@ -31,7 +31,7 @@ const projectsData: Project[] = [
     title: 'Jefe del Equipo de Economía Circular y Finanzas Verdes',
     description: 'Mapping of funders and investors for the circular economy in the Dominican Republic. Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH',
     imageUrl: JEFE_ECONOMIA_CIRCULAR,
-    category: 'Agricultura Sostenible',
+    category: 'Economía Circular',
     tags: ['Finanzas', 'Circular'],
     slug: 'huertos-urbanos',
 
@@ -41,7 +41,7 @@ const projectsData: Project[] = [
     title: 'Gestor de Proyectos de Impacto Sostenible y Consultor en Economía Circular y Biotecnología',
     description: 'Entidad: CIBS Fundo San Rocco (Centro de Innovación y Biotecnología AgroTecnológica)',
     imageUrl: SANROCCO_02,
-    category: 'Energías Renovables',
+    category: 'Sostenibilidad',
     tags: ['Sostenibilidad', 'Circular', 'Biotecnología'],
     slug: 'energia-escolar',
   },
@@ -60,7 +60,7 @@ const projectsData: Project[] = [
     title: 'Recuperación de técnicas ancestrales de cultivo en armonía con los ecosistemas de montaña.',
     description: 'Entidades: Alpacol, Koreshoes, Cruz de Mayo, Kaypi, Reasch, Muru (Start-ups de impacto)',
     imageUrl: ALPACOL_03,
-    category: 'Agricultura Regenerativa',
+    category: 'Ecosistemas',
     tags: ['Andino', 'Tradicional', 'Biodiversidad'],
     slug: 'agroforesteria-andina',
     // impact: '20 hectáreas recuperadas'

@@ -1,6 +1,6 @@
 export const JoinUs = () => {
     return (
-        <section className="bg-[linear-gradient(to_right,_#759C30,_#34D399)] py-10 md:py-20">
+        <section id="contacto" className="bg-[linear-gradient(to_right,_#759C30,_#34D399)] py-10 md:py-20">
             <div className="px-6 sm:px-10 md:px-16">
                 <div className="flex flex-col justify-center items-center text-white">
                     <div className="mb-6 sm:mb-8 text-center">

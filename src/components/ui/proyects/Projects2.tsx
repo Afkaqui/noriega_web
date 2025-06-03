@@ -1,12 +1,21 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
+import defecto from '@/images/autoridades/img001_Eduardo Noriega.jpeg';
+import SANROCCO_01 from '@/images/proyectos/002_1.jpeg';
+import SANROCCO_02 from '@/images/proyectos/002_2.jpeg';
+import BIO_INCUVA_01 from '@/images/proyectos/003_1.jpeg';
+import BIO_INCUVA_02 from '@/images/proyectos/003_2.jpeg';
+import ACELERATOR from '@/images/proyectos/005.jpeg';
+import PROMPERU from '@/images/proyectos/006.jpeg';
+import FUNDACION_CO from '@/images/proyectos/007.jpeg';
+import AMAZONIAS from '@/images/proyectos/008.jpeg';
 // Tipos para los proyectos
 type Project = {
   id: string;
   title: string;
   description: string;
-  imageUrl: string;
+  imageUrl: StaticImageData;
   category: string;
   tags: string[];
   slug: string;
@@ -19,61 +28,61 @@ const projectsData: Project[] = [
     id: '1',
     title: 'Gestor de Proyectos de Impacto Sostenible',
     description: 'Entidad: CIBS Fundo San Rocco (Centro de Innovación y Biotecnología AgroTecnológica)',
-    imageUrl: '/images/projects/urban-garden.jpg',
-    category: 'Agricultura Sostenible',
-    tags: ['Comunidad', 'Autosuficiencia', 'Orgánico'],
-    slug: 'huertos-urbanos',
-    impact: '150 familias beneficiadas'
+    imageUrl: SANROCCO_01,
+    category: 'Impacto Sostenible',
+    tags: ['Innovación', 'Biotecnología', 'Sostenibilidad'],
+    slug: 'gestor-proyectos-impacto',
+    // impact: '150 familias beneficiadas'
   },
   {
     id: '2',
     title: 'Consultor de Cambio Climático y Economía Circular (Uso de Biomateriales)',
     description: 'Entidad: Bioincuba-UPCH (Universidad Peruana Cayetano Heredia) - Proyecto Mucílago.',
-    imageUrl: '/images/projects/solar-school.jpg',
-    category: 'Energías Renovables',
-    tags: ['Educación', 'Tecnología', 'Rural'],
-    slug: 'energia-escolar',
-    impact: '12 escuelas equipadas'
+    imageUrl: BIO_INCUVA_01,
+    category: 'Cambio Climático',
+    tags: ['Economía', 'Biomateriales', 'Circular'],
+    slug: 'cambio-climatico-biomateriales',
+    // impact: '12 escuelas equipadas'
   },
   {
     id: '3',
     title: 'Líder de Propuesta - Finalista Land Accelerator Perú',
     description: 'Entidad: Land Accelerator Perú (Iniciativa 20x20 del World Resources Institute - WRI) / JEConsulting SAC.',
-    imageUrl: '/images/projects/recycling.jpg',
-    category: 'Economía Circular',
-    tags: ['Tecnología', 'Urbanismo', 'Innovación'],
-    slug: 'reciclaje-inteligente',
-    impact: '5 toneladas recicladas/mes'
+    imageUrl: ACELERATOR,
+    category: 'Propuesta',
+    tags: ['Tecnología', 'Innovación'],
+    slug: 'lider-propuesta-land-accelerator',
+    // impact: '5 toneladas recicladas/mes'
   },
   {
     id: '4',
     title: 'Gestor de Proyectos (PROMPERÚ)',
     description: 'Entidad: Dirección de Promoción de Inversiones Empresariales de PROMPERÚ.',
-    imageUrl: '/images/projects/agroforestry.jpg',
-    category: 'Agricultura Regenerativa',
-    tags: ['Andino', 'Tradicional', 'Biodiversidad'],
-    slug: 'agroforesteria-andina',
-    impact: '20 hectáreas recuperadas'
+    imageUrl: PROMPERU,
+    category: 'Inversión Empresarial',
+    tags: ['Inversion', 'PROMPERÚ', 'Proyectos'],
+    slug: 'gestor-proyectos-promperu',
+    // impact: '20 hectáreas recuperadas'
   },
   {
     id: '5',
     title: 'Consultor en Sostenibilidad y Emprendimientos de Impacto',
     description: 'Entidad: Fundación Aquí Sí Hay Futuro (Colombia)',
-    imageUrl: '/images/projects/clean-water.jpg',
-    category: 'Salud Comunitaria',
-    tags: ['Agua', 'Salud', 'Tecnología'],
-    slug: 'agua-potable',
-    impact: '500+ personas beneficiadas'
+    imageUrl: FUNDACION_CO,
+    category: 'Sostenibilidad',
+    tags: ['Sostenibilidad', 'Emprendimiento', 'Impacto'],
+    slug: 'emprendimientos-impacto',
+    // impact: '500+ personas beneficiadas'
   },
   {
     id: '6',
     title: 'Consultor en Sostenibilidad y Triple Impacto',
     description: 'Entidad: Amazonías Símbolos y Sentimientos (Perú)',
-    imageUrl: '/images/projects/workshop.jpg',
-    category: 'Educación',
-    tags: ['Capacitación', 'Emprendimiento', 'Sostenibilidad'],
-    slug: 'talleres-sostenibilidad',
-    impact: '300+ emprendedores capacitados'
+    imageUrl: AMAZONIAS,
+    category: 'Triple Impacto',
+    tags: ['Sostenibilidad', 'Cultura', 'Biodiversidad'],
+    slug: 'triple-impacto-amazonias',
+    // impact: '300+ emprendedores capacitados'
   }
 ];
 

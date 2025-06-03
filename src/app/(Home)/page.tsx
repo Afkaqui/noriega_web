@@ -31,7 +31,6 @@ export default function Home() {
             {/* <DirectorComponent/> */}
             {/* <Trayectoria/> */}
             <JoinUs />
-            <h1 className=''>FORO</h1>
         </div>
     );
 }

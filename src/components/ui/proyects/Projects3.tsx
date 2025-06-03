@@ -1,12 +1,27 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
+
+import defecto from '@/images/autoridades/img001_Eduardo Noriega.jpeg';
+import SANROCCO_01 from '@/images/proyectos/002_1.jpeg';
+import SANROCCO_02 from '@/images/proyectos/002_2.jpeg';
+
+import BIO_INCUVA_01 from '@/images/proyectos/003_1.jpeg';
+import BIO_INCUVA_02 from '@/images/proyectos/003_2.jpeg';
+
+import JECONSUL from '@/images/proyectos/009.jpeg';
+
+import ALPACOL_01 from '@/images/proyectos/004_1.jpeg';
+import ALPACOL_02 from '@/images/proyectos/004_2.jpeg';
+import ALPACOL_03 from '@/images/proyectos/004_3.jpeg';
+import ALPACOL_04 from '@/images/proyectos/004_4.jpeg'; 
+import ALPACOL_05 from '@/images/proyectos/004_5.jpeg';
 
 // Tipos para los proyectos
 type Project = {
   id: string;
   title: string;
   description: string;
-  imageUrl: string;
+  imageUrl: StaticImageData;
   category: string;
   tags: string[];
   slug: string;
@@ -19,41 +34,41 @@ const projectsData: Project[] = [
     id: '1',
     title: 'Gestor de Proyectos de Impacto Sostenible (Perú)',
     description: 'Entidad: CIBS Fundo San Rocco (Centro de Innovación y Biotecnología AgroTecnológica).',
-    imageUrl: '/images/projects/urban-garden.jpg',
-    category: 'Agricultura Sostenible',
-    tags: ['Comunidad', 'Autosuficiencia', 'Orgánico'],
-    slug: 'huertos-urbanos',
-    impact: '150 familias beneficiadas'
+    imageUrl: SANROCCO_02,
+    category: 'Impacto Sostenible',
+    tags: ['Perú', 'Sostenibilidad', 'Innovación'],
+    slug: 'gestor-proyectos-impacto',
+    // impact: '150 familias beneficiadas'
   },
   {
     id: '2',
     title: 'Consultor de Economía Circular y Cambio Climático (Perú)',
     description: 'Entidad: Bioincuba-UPCH (Universidad Peruana Cayetano Heredia) - Proyectos Mucílago y Biochart.',
-    imageUrl: '/images/projects/solar-school.jpg',
-    category: 'Energías Renovables',
-    tags: ['Educación', 'Tecnología', 'Rural'],
-    slug: 'energia-escolar',
-    impact: '12 escuelas equipadas'
+    imageUrl: BIO_INCUVA_02,
+    category: 'Economía Circular',
+    tags: ['Circular', 'Tecnología', 'Cambio Climático'],
+    slug: 'economia-circular',
+    // impact: '12 escuelas equipadas'
   },
   {
     id: '3',
     title: 'Director de Inversiones de Impacto (Perú y Latinoamérica)',
     description: 'Entidad: JEConsulting (en alianza con Asesorandes SAC).',
-    imageUrl: '/images/projects/recycling.jpg',
-    category: 'Economía Circular',
-    tags: ['Tecnología', 'Urbanismo', 'Innovación'],
-    slug: 'reciclaje-inteligente',
-    impact: '5 toneladas recicladas/mes'
+    imageUrl: JECONSUL,
+    category: 'Inversiones de Impacto',
+    tags: ['Inversión', 'Alianzas'],
+    slug: 'director-inversiones-impacto',
+    // impact: '5 toneladas recicladas/mes'
   },
   {
     id: '4',
     title: 'Consultor Líder en Incubación y Emprendimientos Sostenibles (Perú y Colombia)',
     description: 'Entidades: Alpacol, Koreshoes, Muru, Cruz de Mayo, Kaypi, Reasch, Fundación Aquí Sí Hay Futuro, Investigación para la Conservación, Amazonías Símbolos y Sentimientos, ACM Ventures.',
-    imageUrl: '/images/projects/agroforestry.jpg',
-    category: 'Agricultura Regenerativa',
-    tags: ['Andino', 'Tradicional', 'Biodiversidad'],
-    slug: 'agroforesteria-andina',
-    impact: '20 hectáreas recuperadas'
+    imageUrl: ALPACOL_04,
+    category: 'Emprendimientos Sostenibles',
+    tags: ['Emprendimiento', 'Tradicional', 'Sostenibilidad'],
+    slug: 'emprendimientos-sostenibles',
+    // impact: '20 hectáreas recuperadas'
   },
 //   {
 //     id: '5',
@@ -153,14 +168,14 @@ export const ProjectsGallery3 = () => {
         </div>
 
         {/* CTA */}
-        <div className="flex justify-center mt-12">
+        {/* <div className="flex justify-center mt-12">
           <Link
             href="/proyectos"
             className="inline-block bg-[#759C30] hover:bg-[#5a7a24] text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg text-center"
           >
             Descubre todos nuestros proyectos
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

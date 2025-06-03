@@ -4,7 +4,7 @@ import Link from 'next/link';
 import profilenoriega from '@/images/autoridades/img001_Eduardo Noriega.jpeg' ;
 export const ProfileSection = () => {
   return (
-    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section id="perfil" className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
         {/* Contenedor principal */}
         <div className="md:flex">
