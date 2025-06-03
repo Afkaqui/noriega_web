@@ -7,7 +7,7 @@ import { Metadata }  from 'next';
 //Partes comentadas para implementación futura
 
 export const metadata: Metadata = {
-    title: 'Eduardo José Noriega Campos',
+    title: 'ENC Ingeniería de Negocios Sostenibles',
     description: 'Impulsamos proyectos de sostenibilidad, economía circular y emprendimientos sostenibles en Perú. Únete a nuestra comunidad para co-crear soluciones innovadoras.',
     keywords: [
       'Sostenibilidad',
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
       'ODS Perú'
     ],
     openGraph: {
-      title: 'GENES Perú - Líderes en Sostenibilidad y Economía Circular',
-      description: 'Conectamos emprendedores, empresas y comunidades para impulsar proyectos sostenibles en Perú',
-      url: 'https://www.genesperu.org',
-      siteName: 'GENES Perú',
+      title: 'ENC Ingeniería de Negocios Sostenibles',
+      description: 'Impulsando ecosistemas de innovación sostenible',
+      url: 'https://noriegaweb.netlify.app/',
+      siteName: 'ENC Ingeniería de Negocios Sostenibles',
     //   images: [
     //     {
     //       url: 'https://www.genesperu.org/images/og-image.jpg',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     //   images: ['https://www.genesperu.org/images/twitter-card.jpg'],
     // },
     alternates: {
-      canonical: 'https://www.genesperu.org',
+      canonical: 'https://noriegaweb.netlify.app',
     },
     robots: {
       index: true,
@@ -77,8 +77,8 @@ export const metadata: Metadata = {
     category: 'sustainability',
     authors: [
       {
-        name: 'GENES Perú',
-        url: 'https://www.genesperu.org',
+        name: 'Angel Kaqui Aquino',
+        url: 'https://github.com/Afkaqui/p',
       },
     ],
     // manifest: '/site.webmanifest',
