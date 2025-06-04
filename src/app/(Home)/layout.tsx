@@ -80,6 +80,10 @@ export const metadata: Metadata = {
         name: 'Angel Kaqui Aquino',
         url: 'https://github.com/Afkaqui/p',
       },
+      {
+        name: 'Randy ',
+        url: '',
+      }
     ],
     // manifest: '/site.webmanifest',
     // verification: {
@@ -89,7 +93,7 @@ export const metadata: Metadata = {
 };
 
 
-export default function GenesLayout({ children }: {
+export default function NoriegaLayout({ children }: {
     children: React.ReactNode;
 }) {
 
