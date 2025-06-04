@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     openGraph: {
       title: 'ENC Ingeniería de Negocios Sostenibles',
       description: 'Impulsando ecosistemas de innovación sostenible',
-      url: 'https://noriegaweb.netlify.app/',
+      url: 'https://www.genesperu.org',
       siteName: 'ENC Ingeniería de Negocios Sostenibles',
     //   images: [
     //     {
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     //   images: ['https://www.genesperu.org/images/twitter-card.jpg'],
     // },
     alternates: {
-      canonical: 'https://noriegaweb.netlify.app',
+      canonical: 'https://www.genesperu.org',
     },
     robots: {
       index: true,
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     authors: [
       {
         name: 'Angel Kaqui Aquino',
-        url: 'https://github.com/Afkaqui/p',
+        url: 'https://github.com/Afkaqui/',
       },
       {
         name: 'Randy ',
